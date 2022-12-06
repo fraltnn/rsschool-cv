@@ -1,1 +1,1 @@
-https://fraltnn.github.io/rsschool-cv/cv
+https://fraltnn.github.io/rsschool-cv/
