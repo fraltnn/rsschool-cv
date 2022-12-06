@@ -14,15 +14,15 @@ I am **22** years old. My main profession is law, but I don't plan to work in my
 
 
 ## Skills :exclamation:
-Programming skills - HTML, CSS, JS, ~~C++~~
-Software - VSC, Photoshop, After Effects , MS Office
+Programming skills - HTML, CSS, JS, ~~C++~~  
+Software - VSC, Photoshop, After Effects , MS Office  
 Law :) - Document review, Contracting and e.t.c
 
 
 ## Language proficiency :closed_book:
-*Russian* - ***Native***
-*English* -  **B1**  - Intermediate
-*Deutsche* - **A2**  - Pre-Intermediate
+*Russian* - ***Native***  
+*English* -  **B1**  - Intermediate  
+*Deutsche* - **A2**  - Pre-Intermediate  
 *Japanese* - **A1**  - Elementary
 
 
