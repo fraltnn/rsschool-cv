@@ -4,10 +4,7 @@
 >I know that I know nothing .Socrates
 >
 ## Contact inforamtion :telephone_receiver:
-E-mail - fraltnnwork@gmail.com
-Telegram - [Link][1] / @fraltnn
-Discord - Tiiw99#3170
-VK - [Link](https://vk.com/fraltnn "Direct link to profile")
+E-mail - fraltnnwork@gmail.com || Telegram - [Link][1] / @fraltnn || Discord - Tiiw99#3170 || VK - [Link](https://vk.com/fraltnn "Direct link to profile")
 
 [1]: https://t.me/fraltnn
 
