@@ -26,21 +26,11 @@ Law :) - Document review, Contracting and e.t.c
 
 ## Code Example
 ```javascript
-let rating = prompt("Enter the number of points");
-if (rating >= 80){
-  console.log("Your grade A");
-} else if(rating >= 70 && rating <= 79){
-  console.log("Your grade B");
-} else if (rating >= 60 && rating <= 69){
-  console.log("Your grade C");
-}else if (rating >= 50 && rating <= 59){
-  console.log("Your grade D");
-}else if (rating >= 0 && rating <= 49){
-  console.log("Your grade F");
-}
-else{
-  console.log("Incorrect value, try again!");
-}
+let y2 = prompt("Точка y2");
+let x1 = prompt("Точка x1");
+let x2 = prompt("Точка x2");
+let m = (y2 - y1)/(x2 - x1);
+console.log(m);
 ```
 
 ## Website examples
