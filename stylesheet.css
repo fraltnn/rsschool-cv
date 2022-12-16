@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --bg-color:#1B1E2B;
+    --body-color:#292D3E;
+    --accent-color:#f07178;
+    --h1-color:#CEFF1A;
+    --h2-color:#F7ACCF;
+    --text-color:#E8F0FF;
+    --header-footer-color:#E9F1F7;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+    background-color: var(--bg-color);
+}
+
+body{
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--body-color);
+
+
+}
+
+a{
+    text-decoration: none;
+    color:var(--accent-color);
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: var(--h1-color);
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 2;
+    color: var(--h2-color);
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section{
+    width: 60%;
+}
+
+@media (max-width: 768px){
+    .section{
+        width: 100%;
+    }
+}
+
+.main .section {
+    margin: 0 auto;
+}
+
+.header .container{
+    background-color:#E9F1F7;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    text-transform:uppercase;
+}
+
+.nav-link{
+    padding: 0 20px;
+    line-height: 83px;
+    transition: .5s;
+    font-size: large;
+    font-weight: bold;
+    color: var(--bg-color);
+}
+
+a.nav-link:visited{
+
+}
+
+a.nav-link:hover{
+    font-size: 25px;
+}
+
+a.nav-link:active{
+ text-decoration: underline;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profile{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img{
+    margin-top: 29px;
+    width: 100px;
+    height: 100px;
+}
+
+#contact .section-title{
+    text-align: center;
+}
+
+.contact-list{
+    color: var(--text-color);
+    line-height: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: medium;
+    justify-content: space-between;
+}
+
+.contact-item{
+    transition: font-size 0.1s ease;
+}
+
+
+.contact-item:hover{
+    font-size: larger;
+}
+
+.contact-item a:hover{
+    color: var(--h1-color);
+    text-decoration: underline;
+}
+
+#summary {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.summary{
+    color: var(--text-color);
+    transition: font-size 0.4s ease;
+}
+
+.summary:hover{
+    font-size: larger;
+}
+
+.skill-list{
+    color: var(--text-color);
+    
+}
+
+.skill-item{
+    transition: font-size 0.1s ease;
+}
+
+.skill-item:hover{
+    font-size: larger;
+}
+
+#language{
+    text-align: right;
+    margin-bottom: 28px;
+}
+
+.lang-list{
+    color: var(--text-color);
+}
+
+.lang-item{
+    transition: font-size 0.1s ease;
+}
+
+.lang-item:hover{
+    font-size: larger;
+}
+
+#code{
+    text-align: left;
+    margin-bottom: 28px;
+}
+.code{
+    font-family: 'Courier New', Courier, monospace;
+    font-style:normal;
+    font-size: medium;
+    color: #E9F1F7;
+
+}
+
+#example{
+    text-align: right;
+}
+
+.example-item a{
+    transition: font-size 0.1s ease;
+}
+
+.example-item a:hover{
+    color: var(--h1-color);
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.education li{
+    transition: font-size 0.1s ease;
+}
+
+.education li:hover{
+    font-size: larger;
+}
+
+.education a:hover{
+    color: var(--h1-color);
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.education{
+    color: var(--text-color);
+    margin-bottom: 29px;
+}
+
+/* Footer style */
+.footer .container{
+    background-color:var(--header-footer-color);
+    padding: 10px 0 10px 0;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-img-git{
+    width: 50px;
+}
+
+.footer-img-rs{
+    width: 120px;
+    height: 50px;
+}
+
+.footer-img-git:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.footer-img-rs:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
